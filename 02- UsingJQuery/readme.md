@@ -1,6 +1,6 @@
 
 
-#Using JQuery 
+# Using JQuery 
 
 ## How can I use JQuery in my web page 
 
