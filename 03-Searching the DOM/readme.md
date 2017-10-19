@@ -14,6 +14,7 @@ $("#vacations li");
 > Will select all the list items inside element with id vacations including grand children or underneath as well.
 
 ## Direct child selector
+
 In order to select direct children of particular  type use `$(#id > childElementType)` for example
 
 ```javascript 
