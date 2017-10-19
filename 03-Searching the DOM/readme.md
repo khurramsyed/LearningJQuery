@@ -1,8 +1,8 @@
 
 To do list 
-[x] Searching the Dom
-[ ] Traversing the Dom
- 
+- [x] Searching the Dom
+- [ ] Traversing the Dom
+
 # Searching the DOM
 ## Using Descendent Selector
 
