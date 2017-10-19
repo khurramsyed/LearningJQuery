@@ -27,7 +27,9 @@ $("h1").text("Learnt first part of jQuery");
 ###When can I start using jQuery
 
 
-use $(document).read(callback_Fucntion) .
+use $(document).ready(callback_Fucntion).
+
+> This means that only start jQuery Processing once document is comletely loaded and ready to be processed.
 
 For example.
 
