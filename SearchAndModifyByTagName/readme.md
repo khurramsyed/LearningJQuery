@@ -38,3 +38,5 @@ $(document).ready( function(){
     $("span").text("$100");
 });
 ```
+
+Use Following Link ot Learn More most of this is from [Code School](http://try.jquery.com)

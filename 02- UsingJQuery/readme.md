@@ -50,3 +50,4 @@ In this case selector takes following form  ` $("#id > elementType")` , you can 
 
 
 Please Ensure the Look at the API for jQuery all the time at [JQuery API Documentation](http://api.jquery.com)
+Use Following Link ot Learn More most of this is from [Code School](http://try.jquery.com)
