@@ -10,7 +10,7 @@ $("document"), $("h1") and so on.
 To select contents on element for example below use .text() function of element.
 <h1>Welcome to JQuery<h1>
 
-*$("h1").text()*
+$("h1").text() 
 
 
 
