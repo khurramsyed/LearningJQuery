@@ -3,6 +3,8 @@ To do list
 - [x] Searching the Dom
 - [ ] Traversing the Dom
 
+Use Following Link ot Learn More most of this is from [Code School](http://try.jquery.com)
+
 # Searching the DOM
 ## Using Descendent Selector
 
@@ -18,7 +20,7 @@ You can do this using `$("#id childTagName")` for example
 In order to select direct children of particular  type use `$(#id > childElementType)` for example
 
 ```javascript 
-  $("#vacations &gt; li") ;
+  $("#vacations > li") ;
 ```
 
 ## Selecting Multiple items at a time
