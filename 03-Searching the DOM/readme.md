@@ -6,9 +6,9 @@ To do list
 # Searching the DOM
 ## Using Descendent Selector
 
-You can do this using `$("#id childTagName") ` for example 
+You can do this using `$("#id childTagName")` for example 
 ```javascript 
-$("#vacations li"); 
+    $("#vacations li"); 
 ```
 
 > Will select all the list items inside element with id vacations including grand children or underneath as well.
@@ -18,7 +18,7 @@ $("#vacations li");
 In order to select direct children of particular  type use `$(#id > childElementType)` for example
 
 ```javascript 
-$("#vacations > li") ;
+  $("#vacations &gt; li") ;
 ```
 
 ## Selecting Multiple items at a time
