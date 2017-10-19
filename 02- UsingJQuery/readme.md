@@ -42,3 +42,11 @@ Now that we have jQuery loaded, we need a place to put all the JavaScript code t
 	$("#mylabel") `Select all elements where element id is mylabel`
 ```
 
+
+## Select all the child tags of a type  of element 
+
+In this case selector takes following form  ` $("#id > elementType")` , you can also select immediate childre using `$("#id").children()`
+
+
+
+Please Ensure the Look at the API for jQuery all the time at [JQuery API Documentation](http://api.jquery.com)
