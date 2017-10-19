@@ -10,7 +10,7 @@ $("document"), $("h1") and so on.
 To select contents on element for example below use .text() function of element.
 <h1>Welcome to JQuery</h1>
 
-** $("h1").text() **
+``` `$("h1").text()` ``` 
 
 
 
@@ -20,7 +20,7 @@ Search the element and then use  text("Value to Set");
 
 e.g. for above  
 
-```jQuery
+```javascript
 $("h1").text("Learnt first part of jQuery");
 ```
 
@@ -31,7 +31,7 @@ use $(document).read(callback_Fucntion) .
 
 For example.
 
-```jQuery
+```javascript
 $(document).ready( function(){
     $("span").text("$100");
 });
