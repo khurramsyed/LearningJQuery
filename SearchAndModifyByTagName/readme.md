@@ -14,7 +14,7 @@ To select contents on element for example below use .text() function of element.
 
 
 
-##To Modify content of an element 
+## To Modify content of an element 
 
 Search the element and then use  text("Value to Set");
 
