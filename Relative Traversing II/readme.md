@@ -34,6 +34,13 @@ For Example if I have following html
 
 You want to add a label after div containing the button that was click. Now we have two issues:
 
- **Find the element that originated the issue ** 
+## Find the element that originated the issue 
 
- **Find correct place where to add the new message. ** 
+You can use `$(this)` for a solution
+
+ ## Find correct place where to add the new message: 
+
+Now you can use `$(this).praent().parent().append(message)` but then you are writing more code and also if the html changes then you will have to change it again.
+
+The function `closest('selector')` will come in handy, which finds the closest ancestor matching selection criterion.
+
