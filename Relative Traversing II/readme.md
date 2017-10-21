@@ -38,9 +38,20 @@ You want to add a label after div containing the button that was click. Now we h
 
 You can use `$(this)` for a solution
 
-###### Find correct place where to add the new message: 
+###### 	Find correct place where to add the new message: 
 
 Now you can use `$(this).praent().parent().append(message)` but then you are writing more code and also if the html changes then you will have to change it again.
 
 The function `closest('selector')` will come in handy, which finds the closest ancestor matching selection criterion.
 
+
+```javascript
+$(document).ready(function() {
+  $('button').on('click', function() {
+    var message = $('<span>Call 1-555-jquery-air to book this tour</span>');
+    $(this).closest('.tour').append(message);  // Find first tour clas in ancestor nodes and add message.
+    $(this).remove(); // remove the button.
+  });
+});
+
+```
