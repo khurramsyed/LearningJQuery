@@ -3,7 +3,7 @@ To do list
 - [x] Searching the Dom
 - [ ] Traversing the Dom
 
-Use Following Link ot Learn More most of this is from [Code School](http://try.jquery.com)
+
 
 # Searching the DOM
 ## Using Descendent Selector
@@ -52,6 +52,24 @@ To Select Last Item in the list
 >you can also play with `$("#id > li:odd");` , `$("#id > li:last");`  and `$("#id li:even")` and so on.
 
 
-
 # Traversing the Dom
 
+
+We were using selectors to find the child objects on an element for example `$(#IdOfElement li)`
+
+Traversing will take this  form `$("#IdOFElement").find("li")`
+
+For example 
+
+```javascript 
+$("#elementID").find("li")
+```
+
+
+Find , finds all the children of the elements , including grandchildren
+
+In order to find only direct children use children function like so:
+
+
+
+Use Following Link ot Learn More most of this is from [Code School](http://try.jquery.com)
