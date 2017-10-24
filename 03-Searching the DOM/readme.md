@@ -1,7 +1,7 @@
 
 To do list 
 - [x] Searching the Dom
-- [ ] Traversing the Dom
+- [x] Traversing the Dom
 
 
 
