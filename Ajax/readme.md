@@ -86,3 +86,30 @@ $(document).ready(function() {
 });
 
 ```
+
+
+## Event Delegation
+Example code `$('.photos li').on('mouseenter', showPhotos);` will call showPhotos when click on a child li element inside the element with class .photos. However this might not work if called inside like below, if li element was added after document was loaded for example  ajax response received.
+
+```javascript  
+ $(document).ready {
+
+  $('.photos li').on('mouseenter', showPhotos);
+}
+```
+
+In order to avoid this situation you will need to call scan it on `.photos` and then select the li element as part of even delegation like below.
+
+```javascript  
+ $(document).ready {
+
+  $('.photos').on('mouseenter', 'li', showPhotos);
+}
+```
+
+
+
+  will 
+
+  $('.photos').on('mouseenter','li', showPhotos)
+                 .on('mouseleave','li', showPhotos);
